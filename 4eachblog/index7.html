@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+    <meta charaset="UTF-8">
+    <title>CSS演習2</title>
+    <link rel="stylesheet"type="text/css"
+    href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+      $('.abc').bxSlider({
+          auto:true,
+          mode:'fade',
+          speed:1500,
+          slidwidth:1100,
+        });
+    });
+    </script>
+
+ </head>
+    
+ <body>
+  <img src="4eachblog_logo.jpg">
+  <header> 
+     <ul>
+      <li>トップ</li>
+      <li>プロフィール</li>
+      <li>4eachについて</li>
+      <li>登録フォーム</li>
+      <li>問い合わせ</li>
+      <li>その他</li>
+     </ul>
+  </header>
+ <main>
+  <div class="main-container">
+   <div class="left">
+    <h2>プログラミングに役立つ書籍</h2>
+    <time>2017年1月15日</time>
+    <div class="abc">
+    <div><img src="pic1.jpg" width="1100px height="900px></div>
+    <div><img src="pic2.jpg" width="1100px height="900px></div>
+    <div><img src="pic3.jpg" width="1100px height="900px></div>
+    
+    </div>
+
+       4eachはインターノウスが提供するオンラインでプログラミングが勉強できるイーラーニングシステムです。
+    <p>記事中身</p>
+    <div class="box1">
+       <ul>
+         <li><img src="pic1.jpg"  width="240px" height="180px" ><p class="gazou">ドメイン取得方法</p></li>
+         <li><img src="pic2.jpg" width="240px" height="180px"><p class="gazou">快適な職場環境</p></li>
+         <li><img src="pic3.jpg"  width="240px" height="180px" ><p class="gazou">Linuxの基礎</p></li>
+         <li><img src="pic4.jpg"  width="240px" height="180px" ><p class="gazou">マーケティング入門</p></li>
+         <li><img src="pic5.jpg"  width="240px" height="180px" ><p class="gazou">アクティブラーニング</p></li>
+         <li><img src="pic6.jpg"  width="240px" height="180px"><p class="gazou">CSSの効率的な勉強方法</p></li>
+         <li><img src="pic7.jpg"  width="240px" height="180px" ><p class="gazou">リーダブルコードとは</p></li>
+         <li><img src="pic8.jpg"  width="240px" height="180px" ><p class="gazou">HTML5の可能性.</p></li>
+    　　</ul>
+    </div>
+   </div>
+    <div class="right">
+     <h4>人気の記事</h4>
+     <P class="kizi">PHP オススメの本</P>
+     <P class="kizi">PHP MyAdminの使い方</P>
+     <P class="kizi">今人気のエディタ</P>
+     <P class="kizi">HTMLの基礎</P>
+         
+     <div clss="osusume">
+      <h4>オススメリンク</h4>
+         <p class="rinnku">インターノウス株式会社</p>
+         <p class="rinnku">XAMPPのダウンロード</p>
+         <p class="rinnku">Eclipseのダウンロード</p>
+         <p class="rinnku">Bracketsのダウンロード</p>
+     </div>
+         
+     <div class="kategori">
+      <h4>カテゴリ</h4>
+         <p class="kategori2">HTML</p>
+         <p class="kategori2">PHP</p>
+         <p class="kategori2">MySQL</p>
+         <p class="kategori2">JavaScript</p>
+     </div>
+    </div>
+   </div>
+ </main>
+<footer>
+    copyright (c) internous ｜4each blog is the one which provides A to Z about programming.
+</footer>
+</body>
+</html>

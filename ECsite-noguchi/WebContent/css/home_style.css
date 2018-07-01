@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+html {
+	width:100%;
+	background-image: url("../image/hon16.jpg");
+ 	background-size:100% 100%;
+	}
+
+body {
+	margin:0;
+	font-family:Verdana,Helvetica,sans-serif;
+	font-size:12px;
+	}
+
+.button {
+	background-color: #333;
+	border: 2px solid #333;
+	color: #fff;
+	line-height: 50px;
+	}
+
+.button:hover {
+	background-color: #fff;
+	border-color: #59b1eb;
+	color: #59b1eb;
+	}
+
+table {
+	text-align:center;
+	margin:0 auto;
+    }
+
+/*========ecsite LAYOUT========*/
+#top {
+	width:780px;
+	margin:30px auto;
+	border:1px solid #333;
+	}
+
+#main {
+	width:100%;
+	height: auto;
+	min-height:700px;
+	text-align: center;
+	}
+
+.footer-push {
+	height:100px;
+	}
+
+#text-center {
+	display: inline-block;
+	text-align: center;
+	}
+
