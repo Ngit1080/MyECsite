@@ -58,10 +58,10 @@
               <result name="error">buyItem.jsp</result>
               </action>
 
-<!--          BuyItemCompleteAction -->
-<!--               <action name="BuyItemCompleteAction" class="com.internousdev.ecsite.action.BuyItemCompleteAction" method="execute"> -->
-<!--               <result name="success">home.jsp</result> -->
-<!--               </action> -->
+		<!-- BuyItemCompleteAction -->
+              <action name="BuyItemCompleteAction" class="com.internousdev.ecsite.action.BuyItemCompleteAction" method="execute">
+              <result name="success">home.jsp</result>
+              </action>
 
          <!-- MyPageAction -->
               <action name="MyPageAction" class="com.internousdev.ecsite.action.MyPageAction" method="execute">

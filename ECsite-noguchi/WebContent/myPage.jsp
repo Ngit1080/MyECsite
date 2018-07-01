@@ -35,7 +35,6 @@
 
            <span>購入履歴</span>
            <table class="mypage-table">
-<!--                     <h3>ご購入情報は以下になります。</h3> -->
 
                      <tr>
                             <th>商品名</th>
